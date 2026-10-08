@@ -1,0 +1,13 @@
+{
+  "name": "taobao-detail-studio",
+  "productName": "衣序 · 详情页工作室",
+  "version": "0.1.7-preview",
+  "private": true,
+  "description": "Windows clothing detail-page editor with reusable templates and image-based size recognition",
+  "main": "desktop/main.cjs",
+  "scripts": {
+    "test": "node --test tests/*.test.mjs desktop/tests/*.test.cjs",
+    "build:portable": "node scripts/build-portable.cjs"
+  },
+  "engines": { "node": ">=22" }
+}

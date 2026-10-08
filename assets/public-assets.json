@@ -1,0 +1,158 @@
+{
+    "version":  1,
+    "generatedFromBlank":  true,
+    "tableCoordinatesPreserved":  true,
+    "layoutPreserved":  true,
+    "assets":  [
+                   {
+                       "asset":  "assets/cover.jpg",
+                       "width":  1440,
+                       "height":  1920,
+                       "bytes":  79255
+                   },
+                   {
+                       "asset":  "assets/look.jpg",
+                       "width":  1440,
+                       "height":  1920,
+                       "bytes":  82530
+                   },
+                   {
+                       "asset":  "assets/turntide-template/hero.png",
+                       "width":  1500,
+                       "height":  1996,
+                       "bytes":  34156
+                   },
+                   {
+                       "asset":  "assets/turntide-template/detail-01.png",
+                       "width":  416,
+                       "height":  312,
+                       "bytes":  6125
+                   },
+                   {
+                       "asset":  "assets/turntide-template/detail-02.png",
+                       "width":  414,
+                       "height":  312,
+                       "bytes":  5922
+                   },
+                   {
+                       "asset":  "assets/turntide-template/detail-03.png",
+                       "width":  418,
+                       "height":  319,
+                       "bytes":  6158
+                   },
+                   {
+                       "asset":  "assets/turntide-template/detail-04.png",
+                       "width":  414,
+                       "height":  319,
+                       "bytes":  5874
+                   },
+                   {
+                       "asset":  "assets/turntide-template/model-01.png",
+                       "width":  911,
+                       "height":  1206,
+                       "bytes":  16481
+                   },
+                   {
+                       "asset":  "assets/turntide-template/model-02.png",
+                       "width":  911,
+                       "height":  1206,
+                       "bytes":  16481
+                   },
+                   {
+                       "asset":  "assets/turntide-template/model-03.png",
+                       "width":  911,
+                       "height":  1206,
+                       "bytes":  16481
+                   },
+                   {
+                       "asset":  "assets/turntide-template/model-04.png",
+                       "width":  911,
+                       "height":  1206,
+                       "bytes":  16481
+                   },
+                   {
+                       "asset":  "assets/turntide-template/model-05.png",
+                       "width":  911,
+                       "height":  1206,
+                       "bytes":  16481
+                   },
+                   {
+                       "asset":  "assets/turntide-template/model-06.png",
+                       "width":  911,
+                       "height":  1206,
+                       "bytes":  16481
+                   },
+                   {
+                       "asset":  "assets/turntide-template/model-07.png",
+                       "width":  911,
+                       "height":  1206,
+                       "bytes":  16481
+                   },
+                   {
+                       "asset":  "assets/turntide-template/model-08.png",
+                       "width":  911,
+                       "height":  1206,
+                       "bytes":  16481
+                   },
+                   {
+                       "asset":  "assets/turntide-template/model-09.png",
+                       "width":  911,
+                       "height":  1206,
+                       "bytes":  16481
+                   },
+                   {
+                       "asset":  "assets/turntide-template/size-template.png",
+                       "width":  1037,
+                       "height":  562,
+                       "bytes":  14499
+                   },
+                   {
+                       "asset":  "assets/turntide-template/size-original.png",
+                       "width":  1037,
+                       "height":  562,
+                       "bytes":  14499
+                   },
+                   {
+                       "asset":  "assets/pants-reference/size-template.png",
+                       "width":  899,
+                       "height":  742,
+                       "bytes":  32370
+                   },
+                   {
+                       "asset":  "assets/pants-reference/size-original.png",
+                       "width":  899,
+                       "height":  742,
+                       "bytes":  32370
+                   },
+                   {
+                       "asset":  "assets/pants-reference/recommendation-template.png",
+                       "width":  899,
+                       "height":  356,
+                       "bytes":  5862
+                   },
+                   {
+                       "asset":  "assets/pants-reference/recommendation-original.png",
+                       "width":  899,
+                       "height":  356,
+                       "bytes":  5862
+                   },
+                   {
+                       "asset":  "assets/pants-reference/measurement-diagram-original.png",
+                       "width":  260,
+                       "height":  464,
+                       "bytes":  10771
+                   },
+                   {
+                       "asset":  "assets/pants-reference/information-title-original.png",
+                       "width":  255,
+                       "height":  87,
+                       "bytes":  2228
+                   },
+                   {
+                       "asset":  "assets/turntide-template/footer-service-cn.png",
+                       "width":  1026,
+                       "height":  900,
+                       "bytes":  27775
+                   }
+               ]
+}

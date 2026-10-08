@@ -1,0 +1,1624 @@
+{
+    "version":  1,
+    "coordinateSystem":  "Local template pixels. Public bitmap is freshly drawn; cell and frame coordinates remain fixed.",
+    "blocks":  {
+                   "size":  {
+                                "asset":  "assets/pants-reference/size-template.png",
+                                "originalAsset":  "assets/pants-reference/size-original.png",
+                                "width":  899,
+                                "height":  742,
+                                "cropOrigin":  {
+                                                   "x":  28,
+                                                   "y":  1330
+                                               },
+                                "cropBox":  [
+                                                28,
+                                                1330,
+                                                927,
+                                                2072
+                                            ],
+                                "table":  {
+                                              "columns":  [
+                                                              "尺码",
+                                                              "腰围",
+                                                              "臀围",
+                                                              "裤长",
+                                                              "腿围",
+                                                              "脚围"
+                                                          ],
+                                              "columnCount":  6,
+                                              "columnCenters":  [
+                                                                    318.75,
+                                                                    422.5,
+                                                                    532.5,
+                                                                    641.0,
+                                                                    753.25,
+                                                                    857.5
+                                                                ],
+                                              "colBounds":  [
+                                                                290,
+                                                                372,
+                                                                476,
+                                                                584,
+                                                                692,
+                                                                800,
+                                                                890
+                                                            ],
+                                              "headerRow":  {
+                                                                "top":  228,
+                                                                "bottom":  280
+                                                            },
+                                              "dataRows":  [
+                                                               {
+                                                                   "top":  280,
+                                                                   "bottom":  338,
+                                                                   "centerY":  302.5,
+                                                                   "baselineY":  312,
+                                                                   "background":  "#ffffff",
+                                                                   "glyphBounds":  {
+                                                                                       "top":  295,
+                                                                                       "bottom":  311
+                                                                                   },
+                                                                   "cellMasks":  [
+                                                                                     {
+                                                                                         "left":  309,
+                                                                                         "top":  293,
+                                                                                         "right":  329,
+                                                                                         "bottom":  313,
+                                                                                         "row":  0,
+                                                                                         "column":  0
+                                                                                     },
+                                                                                     {
+                                                                                         "left":  410,
+                                                                                         "top":  292,
+                                                                                         "right":  437,
+                                                                                         "bottom":  313,
+                                                                                         "row":  0,
+                                                                                         "column":  1
+                                                                                     },
+                                                                                     {
+                                                                                         "left":  514,
+                                                                                         "top":  292,
+                                                                                         "right":  552,
+                                                                                         "bottom":  313,
+                                                                                         "row":  0,
+                                                                                         "column":  2
+                                                                                     },
+                                                                                     {
+                                                                                         "left":  613,
+                                                                                         "top":  292,
+                                                                                         "right":  670,
+                                                                                         "bottom":  313,
+                                                                                         "row":  0,
+                                                                                         "column":  3
+                                                                                     },
+                                                                                     {
+                                                                                         "left":  740,
+                                                                                         "top":  292,
+                                                                                         "right":  768,
+                                                                                         "bottom":  313,
+                                                                                         "row":  0,
+                                                                                         "column":  4
+                                                                                     },
+                                                                                     {
+                                                                                         "left":  844,
+                                                                                         "top":  292,
+                                                                                         "right":  872,
+                                                                                         "bottom":  313,
+                                                                                         "row":  0,
+                                                                                         "column":  5
+                                                                                     }
+                                                                                 ]
+                                                               },
+                                                               {
+                                                                   "top":  338,
+                                                                   "bottom":  389,
+                                                                   "centerY":  357.0,
+                                                                   "baselineY":  366,
+                                                                   "background":  "#ebebeb",
+                                                                   "glyphBounds":  {
+                                                                                       "top":  350,
+                                                                                       "bottom":  365
+                                                                                   },
+                                                                   "cellMasks":  [
+                                                                                     {
+                                                                                         "left":  312,
+                                                                                         "top":  347,
+                                                                                         "right":  328,
+                                                                                         "bottom":  368,
+                                                                                         "row":  1,
+                                                                                         "column":  0
+                                                                                     },
+                                                                                     {
+                                                                                         "left":  409,
+                                                                                         "top":  347,
+                                                                                         "right":  437,
+                                                                                         "bottom":  368,
+                                                                                         "row":  1,
+                                                                                         "column":  1
+                                                                                     },
+                                                                                     {
+                                                                                         "left":  514,
+                                                                                         "top":  347,
+                                                                                         "right":  552,
+                                                                                         "bottom":  368,
+                                                                                         "row":  1,
+                                                                                         "column":  2
+                                                                                     },
+                                                                                     {
+                                                                                         "left":  613,
+                                                                                         "top":  347,
+                                                                                         "right":  670,
+                                                                                         "bottom":  368,
+                                                                                         "row":  1,
+                                                                                         "column":  3
+                                                                                     },
+                                                                                     {
+                                                                                         "left":  740,
+                                                                                         "top":  347,
+                                                                                         "right":  768,
+                                                                                         "bottom":  368,
+                                                                                         "row":  1,
+                                                                                         "column":  4
+                                                                                     },
+                                                                                     {
+                                                                                         "left":  843,
+                                                                                         "top":  347,
+                                                                                         "right":  872,
+                                                                                         "bottom":  368,
+                                                                                         "row":  1,
+                                                                                         "column":  5
+                                                                                     }
+                                                                                 ]
+                                                               },
+                                                               {
+                                                                   "top":  389,
+                                                                   "bottom":  445,
+                                                                   "centerY":  412.0,
+                                                                   "baselineY":  421,
+                                                                   "background":  "#ffffff",
+                                                                   "glyphBounds":  {
+                                                                                       "top":  405,
+                                                                                       "bottom":  420
+                                                                                   },
+                                                                   "cellMasks":  [
+                                                                                     {
+                                                                                         "left":  304,
+                                                                                         "top":  402,
+                                                                                         "right":  333,
+                                                                                         "bottom":  423,
+                                                                                         "row":  2,
+                                                                                         "column":  0
+                                                                                     },
+                                                                                     {
+                                                                                         "left":  410,
+                                                                                         "top":  402,
+                                                                                         "right":  437,
+                                                                                         "bottom":  423,
+                                                                                         "row":  2,
+                                                                                         "column":  1
+                                                                                     },
+                                                                                     {
+                                                                                         "left":  514,
+                                                                                         "top":  402,
+                                                                                         "right":  550,
+                                                                                         "bottom":  422,
+                                                                                         "row":  2,
+                                                                                         "column":  2
+                                                                                     },
+                                                                                     {
+                                                                                         "left":  613,
+                                                                                         "top":  402,
+                                                                                         "right":  670,
+                                                                                         "bottom":  423,
+                                                                                         "row":  2,
+                                                                                         "column":  3
+                                                                                     },
+                                                                                     {
+                                                                                         "left":  740,
+                                                                                         "top":  402,
+                                                                                         "right":  768,
+                                                                                         "bottom":  423,
+                                                                                         "row":  2,
+                                                                                         "column":  4
+                                                                                     },
+                                                                                     {
+                                                                                         "left":  844,
+                                                                                         "top":  402,
+                                                                                         "right":  872,
+                                                                                         "bottom":  423,
+                                                                                         "row":  2,
+                                                                                         "column":  5
+                                                                                     }
+                                                                                 ]
+                                                               },
+                                                               {
+                                                                   "top":  445,
+                                                                   "bottom":  496,
+                                                                   "centerY":  466.0,
+                                                                   "baselineY":  475,
+                                                                   "background":  "#ebebeb",
+                                                                   "glyphBounds":  {
+                                                                                       "top":  459,
+                                                                                       "bottom":  474
+                                                                                   },
+                                                                   "cellMasks":  [
+                                                                                     {
+                                                                                         "left":  299,
+                                                                                         "top":  456,
+                                                                                         "right":  340,
+                                                                                         "bottom":  477,
+                                                                                         "row":  3,
+                                                                                         "column":  0
+                                                                                     },
+                                                                                     {
+                                                                                         "left":  409,
+                                                                                         "top":  456,
+                                                                                         "right":  437,
+                                                                                         "bottom":  477,
+                                                                                         "row":  3,
+                                                                                         "column":  1
+                                                                                     },
+                                                                                     {
+                                                                                         "left":  514,
+                                                                                         "top":  456,
+                                                                                         "right":  552,
+                                                                                         "bottom":  477,
+                                                                                         "row":  3,
+                                                                                         "column":  2
+                                                                                     },
+                                                                                     {
+                                                                                         "left":  613,
+                                                                                         "top":  456,
+                                                                                         "right":  670,
+                                                                                         "bottom":  477,
+                                                                                         "row":  3,
+                                                                                         "column":  3
+                                                                                     },
+                                                                                     {
+                                                                                         "left":  740,
+                                                                                         "top":  456,
+                                                                                         "right":  765,
+                                                                                         "bottom":  477,
+                                                                                         "row":  3,
+                                                                                         "column":  4
+                                                                                     },
+                                                                                     {
+                                                                                         "left":  843,
+                                                                                         "top":  456,
+                                                                                         "right":  872,
+                                                                                         "bottom":  477,
+                                                                                         "row":  3,
+                                                                                         "column":  5
+                                                                                     }
+                                                                                 ]
+                                                               },
+                                                               {
+                                                                   "top":  496,
+                                                                   "bottom":  551,
+                                                                   "centerY":  521.0,
+                                                                   "baselineY":  530,
+                                                                   "background":  "#ffffff",
+                                                                   "glyphBounds":  {
+                                                                                       "top":  514,
+                                                                                       "bottom":  529
+                                                                                   },
+                                                                   "cellMasks":  [
+                                                                                     {
+                                                                                         "left":  299,
+                                                                                         "top":  511,
+                                                                                         "right":  339,
+                                                                                         "bottom":  532,
+                                                                                         "row":  4,
+                                                                                         "column":  0
+                                                                                     },
+                                                                                     {
+                                                                                         "left":  409,
+                                                                                         "top":  511,
+                                                                                         "right":  437,
+                                                                                         "bottom":  532,
+                                                                                         "row":  4,
+                                                                                         "column":  1
+                                                                                     },
+                                                                                     {
+                                                                                         "left":  514,
+                                                                                         "top":  511,
+                                                                                         "right":  552,
+                                                                                         "bottom":  532,
+                                                                                         "row":  4,
+                                                                                         "column":  2
+                                                                                     },
+                                                                                     {
+                                                                                         "left":  613,
+                                                                                         "top":  511,
+                                                                                         "right":  670,
+                                                                                         "bottom":  532,
+                                                                                         "row":  4,
+                                                                                         "column":  3
+                                                                                     },
+                                                                                     {
+                                                                                         "left":  740,
+                                                                                         "top":  511,
+                                                                                         "right":  767,
+                                                                                         "bottom":  532,
+                                                                                         "row":  4,
+                                                                                         "column":  4
+                                                                                     },
+                                                                                     {
+                                                                                         "left":  844,
+                                                                                         "top":  511,
+                                                                                         "right":  872,
+                                                                                         "bottom":  532,
+                                                                                         "row":  4,
+                                                                                         "column":  5
+                                                                                     }
+                                                                                 ]
+                                                               },
+                                                               {
+                                                                   "top":  551,
+                                                                   "bottom":  602,
+                                                                   "centerY":  575.0,
+                                                                   "baselineY":  584,
+                                                                   "background":  "#ebebeb",
+                                                                   "glyphBounds":  {
+                                                                                       "top":  568,
+                                                                                       "bottom":  583
+                                                                                   },
+                                                                   "cellMasks":  [
+                                                                                     {
+                                                                                         "left":  299,
+                                                                                         "top":  565,
+                                                                                         "right":  340,
+                                                                                         "bottom":  586,
+                                                                                         "row":  5,
+                                                                                         "column":  0
+                                                                                     },
+                                                                                     {
+                                                                                         "left":  409,
+                                                                                         "top":  565,
+                                                                                         "right":  437,
+                                                                                         "bottom":  586,
+                                                                                         "row":  5,
+                                                                                         "column":  1
+                                                                                     },
+                                                                                     {
+                                                                                         "left":  514,
+                                                                                         "top":  565,
+                                                                                         "right":  552,
+                                                                                         "bottom":  586,
+                                                                                         "row":  5,
+                                                                                         "column":  2
+                                                                                     },
+                                                                                     {
+                                                                                         "left":  613,
+                                                                                         "top":  565,
+                                                                                         "right":  670,
+                                                                                         "bottom":  586,
+                                                                                         "row":  5,
+                                                                                         "column":  3
+                                                                                     },
+                                                                                     {
+                                                                                         "left":  740,
+                                                                                         "top":  565,
+                                                                                         "right":  767,
+                                                                                         "bottom":  586,
+                                                                                         "row":  5,
+                                                                                         "column":  4
+                                                                                     },
+                                                                                     {
+                                                                                         "left":  844,
+                                                                                         "top":  565,
+                                                                                         "right":  872,
+                                                                                         "bottom":  586,
+                                                                                         "row":  5,
+                                                                                         "column":  5
+                                                                                     }
+                                                                                 ]
+                                                               }
+                                                           ],
+                                              "font":  {
+                                                           "family":  "Arial, sans-serif",
+                                                           "size":  22,
+                                                           "weight":  400,
+                                                           "color":  "#777777",
+                                                           "textAlign":  "center",
+                                                           "textBaseline":  "alphabetic"
+                                                       },
+                                              "referenceSampleValues":  [
+                                                                            [
+                                                                                "",
+                                                                                "",
+                                                                                "",
+                                                                                "",
+                                                                                "",
+                                                                                ""
+                                                                            ],
+                                                                            [
+                                                                                "",
+                                                                                "",
+                                                                                "",
+                                                                                "",
+                                                                                "",
+                                                                                ""
+                                                                            ],
+                                                                            [
+                                                                                "",
+                                                                                "",
+                                                                                "",
+                                                                                "",
+                                                                                "",
+                                                                                ""
+                                                                            ],
+                                                                            [
+                                                                                "",
+                                                                                "",
+                                                                                "",
+                                                                                "",
+                                                                                "",
+                                                                                ""
+                                                                            ],
+                                                                            [
+                                                                                "",
+                                                                                "",
+                                                                                "",
+                                                                                "",
+                                                                                "",
+                                                                                ""
+                                                                            ],
+                                                                            [
+                                                                                "",
+                                                                                "",
+                                                                                "",
+                                                                                "",
+                                                                                "",
+                                                                                ""
+                                                                            ]
+                                                                        ],
+                                              "sampleOnly":  true
+                                          },
+                                "editableCellMasks":  [
+                                                          {
+                                                              "left":  309,
+                                                              "top":  293,
+                                                              "right":  329,
+                                                              "bottom":  313,
+                                                              "row":  0,
+                                                              "column":  0
+                                                          },
+                                                          {
+                                                              "left":  410,
+                                                              "top":  292,
+                                                              "right":  437,
+                                                              "bottom":  313,
+                                                              "row":  0,
+                                                              "column":  1
+                                                          },
+                                                          {
+                                                              "left":  514,
+                                                              "top":  292,
+                                                              "right":  552,
+                                                              "bottom":  313,
+                                                              "row":  0,
+                                                              "column":  2
+                                                          },
+                                                          {
+                                                              "left":  613,
+                                                              "top":  292,
+                                                              "right":  670,
+                                                              "bottom":  313,
+                                                              "row":  0,
+                                                              "column":  3
+                                                          },
+                                                          {
+                                                              "left":  740,
+                                                              "top":  292,
+                                                              "right":  768,
+                                                              "bottom":  313,
+                                                              "row":  0,
+                                                              "column":  4
+                                                          },
+                                                          {
+                                                              "left":  844,
+                                                              "top":  292,
+                                                              "right":  872,
+                                                              "bottom":  313,
+                                                              "row":  0,
+                                                              "column":  5
+                                                          },
+                                                          {
+                                                              "left":  312,
+                                                              "top":  347,
+                                                              "right":  328,
+                                                              "bottom":  368,
+                                                              "row":  1,
+                                                              "column":  0
+                                                          },
+                                                          {
+                                                              "left":  409,
+                                                              "top":  347,
+                                                              "right":  437,
+                                                              "bottom":  368,
+                                                              "row":  1,
+                                                              "column":  1
+                                                          },
+                                                          {
+                                                              "left":  514,
+                                                              "top":  347,
+                                                              "right":  552,
+                                                              "bottom":  368,
+                                                              "row":  1,
+                                                              "column":  2
+                                                          },
+                                                          {
+                                                              "left":  613,
+                                                              "top":  347,
+                                                              "right":  670,
+                                                              "bottom":  368,
+                                                              "row":  1,
+                                                              "column":  3
+                                                          },
+                                                          {
+                                                              "left":  740,
+                                                              "top":  347,
+                                                              "right":  768,
+                                                              "bottom":  368,
+                                                              "row":  1,
+                                                              "column":  4
+                                                          },
+                                                          {
+                                                              "left":  843,
+                                                              "top":  347,
+                                                              "right":  872,
+                                                              "bottom":  368,
+                                                              "row":  1,
+                                                              "column":  5
+                                                          },
+                                                          {
+                                                              "left":  304,
+                                                              "top":  402,
+                                                              "right":  333,
+                                                              "bottom":  423,
+                                                              "row":  2,
+                                                              "column":  0
+                                                          },
+                                                          {
+                                                              "left":  410,
+                                                              "top":  402,
+                                                              "right":  437,
+                                                              "bottom":  423,
+                                                              "row":  2,
+                                                              "column":  1
+                                                          },
+                                                          {
+                                                              "left":  514,
+                                                              "top":  402,
+                                                              "right":  550,
+                                                              "bottom":  422,
+                                                              "row":  2,
+                                                              "column":  2
+                                                          },
+                                                          {
+                                                              "left":  613,
+                                                              "top":  402,
+                                                              "right":  670,
+                                                              "bottom":  423,
+                                                              "row":  2,
+                                                              "column":  3
+                                                          },
+                                                          {
+                                                              "left":  740,
+                                                              "top":  402,
+                                                              "right":  768,
+                                                              "bottom":  423,
+                                                              "row":  2,
+                                                              "column":  4
+                                                          },
+                                                          {
+                                                              "left":  844,
+                                                              "top":  402,
+                                                              "right":  872,
+                                                              "bottom":  423,
+                                                              "row":  2,
+                                                              "column":  5
+                                                          },
+                                                          {
+                                                              "left":  299,
+                                                              "top":  456,
+                                                              "right":  340,
+                                                              "bottom":  477,
+                                                              "row":  3,
+                                                              "column":  0
+                                                          },
+                                                          {
+                                                              "left":  409,
+                                                              "top":  456,
+                                                              "right":  437,
+                                                              "bottom":  477,
+                                                              "row":  3,
+                                                              "column":  1
+                                                          },
+                                                          {
+                                                              "left":  514,
+                                                              "top":  456,
+                                                              "right":  552,
+                                                              "bottom":  477,
+                                                              "row":  3,
+                                                              "column":  2
+                                                          },
+                                                          {
+                                                              "left":  613,
+                                                              "top":  456,
+                                                              "right":  670,
+                                                              "bottom":  477,
+                                                              "row":  3,
+                                                              "column":  3
+                                                          },
+                                                          {
+                                                              "left":  740,
+                                                              "top":  456,
+                                                              "right":  765,
+                                                              "bottom":  477,
+                                                              "row":  3,
+                                                              "column":  4
+                                                          },
+                                                          {
+                                                              "left":  843,
+                                                              "top":  456,
+                                                              "right":  872,
+                                                              "bottom":  477,
+                                                              "row":  3,
+                                                              "column":  5
+                                                          },
+                                                          {
+                                                              "left":  299,
+                                                              "top":  511,
+                                                              "right":  339,
+                                                              "bottom":  532,
+                                                              "row":  4,
+                                                              "column":  0
+                                                          },
+                                                          {
+                                                              "left":  409,
+                                                              "top":  511,
+                                                              "right":  437,
+                                                              "bottom":  532,
+                                                              "row":  4,
+                                                              "column":  1
+                                                          },
+                                                          {
+                                                              "left":  514,
+                                                              "top":  511,
+                                                              "right":  552,
+                                                              "bottom":  532,
+                                                              "row":  4,
+                                                              "column":  2
+                                                          },
+                                                          {
+                                                              "left":  613,
+                                                              "top":  511,
+                                                              "right":  670,
+                                                              "bottom":  532,
+                                                              "row":  4,
+                                                              "column":  3
+                                                          },
+                                                          {
+                                                              "left":  740,
+                                                              "top":  511,
+                                                              "right":  767,
+                                                              "bottom":  532,
+                                                              "row":  4,
+                                                              "column":  4
+                                                          },
+                                                          {
+                                                              "left":  844,
+                                                              "top":  511,
+                                                              "right":  872,
+                                                              "bottom":  532,
+                                                              "row":  4,
+                                                              "column":  5
+                                                          },
+                                                          {
+                                                              "left":  299,
+                                                              "top":  565,
+                                                              "right":  340,
+                                                              "bottom":  586,
+                                                              "row":  5,
+                                                              "column":  0
+                                                          },
+                                                          {
+                                                              "left":  409,
+                                                              "top":  565,
+                                                              "right":  437,
+                                                              "bottom":  586,
+                                                              "row":  5,
+                                                              "column":  1
+                                                          },
+                                                          {
+                                                              "left":  514,
+                                                              "top":  565,
+                                                              "right":  552,
+                                                              "bottom":  586,
+                                                              "row":  5,
+                                                              "column":  2
+                                                          },
+                                                          {
+                                                              "left":  613,
+                                                              "top":  565,
+                                                              "right":  670,
+                                                              "bottom":  586,
+                                                              "row":  5,
+                                                              "column":  3
+                                                          },
+                                                          {
+                                                              "left":  740,
+                                                              "top":  565,
+                                                              "right":  767,
+                                                              "bottom":  586,
+                                                              "row":  5,
+                                                              "column":  4
+                                                          },
+                                                          {
+                                                              "left":  844,
+                                                              "top":  565,
+                                                              "right":  872,
+                                                              "bottom":  586,
+                                                              "row":  5,
+                                                              "column":  5
+                                                          }
+                                                      ],
+                                "screenshotToolbarMasks":  [
+                                                               {
+                                                                   "left":  601,
+                                                                   "top":  11,
+                                                                   "right":  806,
+                                                                   "bottom":  89
+                                                               }
+                                                           ]
+                            },
+                   "recommendation":  {
+                                          "asset":  "assets/pants-reference/recommendation-template.png",
+                                          "originalAsset":  "assets/pants-reference/recommendation-original.png",
+                                          "width":  899,
+                                          "height":  356,
+                                          "cropOrigin":  {
+                                                             "x":  28,
+                                                             "y":  2072
+                                                         },
+                                          "cropBox":  [
+                                                          28,
+                                                          2072,
+                                                          927,
+                                                          2428
+                                                      ],
+                                          "table":  {
+                                                        "columns":  [
+                                                                        "身高 / 体重",
+                                                                        "",
+                                                                        "",
+                                                                        "",
+                                                                        "",
+                                                                        "",
+                                                                        "",
+                                                                        "",
+                                                                        "",
+                                                                        ""
+                                                                    ],
+                                                        "columnCount":  10,
+                                                        "columnCenters":  [
+                                                                              105.0,
+                                                                              216.5,
+                                                                              298.0,
+                                                                              372.75,
+                                                                              454.0,
+                                                                              530.0,
+                                                                              611.5,
+                                                                              692.0,
+                                                                              769.0,
+                                                                              848.0
+                                                                          ],
+                                                        "colBounds":  [
+                                                                          12,
+                                                                          181,
+                                                                          259,
+                                                                          338,
+                                                                          416,
+                                                                          494,
+                                                                          573,
+                                                                          651,
+                                                                          729,
+                                                                          807,
+                                                                          887
+                                                                      ],
+                                                        "headerRow":  {
+                                                                          "top":  48,
+                                                                          "bottom":  98
+                                                                      },
+                                                        "dataRows":  [
+                                                                         {
+                                                                             "top":  98,
+                                                                             "bottom":  161,
+                                                                             "centerY":  129.5,
+                                                                             "baselineY":  141,
+                                                                             "background":  "#ffffff",
+                                                                             "glyphBounds":  {
+                                                                                                 "top":  120,
+                                                                                                 "bottom":  140
+                                                                                             },
+                                                                             "cellMasks":  [
+                                                                                               {
+                                                                                                   "left":  53,
+                                                                                                   "top":  117,
+                                                                                                   "right":  158,
+                                                                                                   "bottom":  143,
+                                                                                                   "row":  0,
+                                                                                                   "column":  0
+                                                                                               },
+                                                                                               {
+                                                                                                   "left":  205,
+                                                                                                   "top":  118,
+                                                                                                   "right":  228,
+                                                                                                   "bottom":  142,
+                                                                                                   "row":  0,
+                                                                                                   "column":  1
+                                                                                               },
+                                                                                               {
+                                                                                                   "left":  287,
+                                                                                                   "top":  118,
+                                                                                                   "right":  310,
+                                                                                                   "bottom":  142,
+                                                                                                   "row":  0,
+                                                                                                   "column":  2
+                                                                                               },
+                                                                                               {
+                                                                                                   "left":  365,
+                                                                                                   "top":  118,
+                                                                                                   "right":  382,
+                                                                                                   "bottom":  142,
+                                                                                                   "row":  0,
+                                                                                                   "column":  3
+                                                                                               },
+                                                                                               {
+                                                                                                   "left":  446,
+                                                                                                   "top":  118,
+                                                                                                   "right":  463,
+                                                                                                   "bottom":  142,
+                                                                                                   "row":  0,
+                                                                                                   "column":  4
+                                                                                               },
+                                                                                               {
+                                                                                                   "left":  513,
+                                                                                                   "top":  118,
+                                                                                                   "right":  548,
+                                                                                                   "bottom":  142,
+                                                                                                   "row":  0,
+                                                                                                   "column":  5
+                                                                                               },
+                                                                                               {
+                                                                                                   "left":  595,
+                                                                                                   "top":  118,
+                                                                                                   "right":  629,
+                                                                                                   "bottom":  142,
+                                                                                                   "row":  0,
+                                                                                                   "column":  6
+                                                                                               },
+                                                                                               {
+                                                                                                   "left":  668,
+                                                                                                   "top":  118,
+                                                                                                   "right":  717,
+                                                                                                   "bottom":  142,
+                                                                                                   "row":  0,
+                                                                                                   "column":  7
+                                                                                               },
+                                                                                               {
+                                                                                                   "left":  745,
+                                                                                                   "top":  118,
+                                                                                                   "right":  793,
+                                                                                                   "bottom":  142,
+                                                                                                   "row":  0,
+                                                                                                   "column":  8
+                                                                                               },
+                                                                                               {
+                                                                                                   "left":  824,
+                                                                                                   "top":  118,
+                                                                                                   "right":  873,
+                                                                                                   "bottom":  143,
+                                                                                                   "row":  0,
+                                                                                                   "column":  9
+                                                                                               }
+                                                                                           ]
+                                                                         },
+                                                                         {
+                                                                             "top":  161,
+                                                                             "bottom":  226,
+                                                                             "centerY":  194.5,
+                                                                             "baselineY":  206,
+                                                                             "background":  "#ececec",
+                                                                             "glyphBounds":  {
+                                                                                                 "top":  185,
+                                                                                                 "bottom":  205
+                                                                                             },
+                                                                             "cellMasks":  [
+                                                                                               {
+                                                                                                   "left":  52,
+                                                                                                   "top":  182,
+                                                                                                   "right":  158,
+                                                                                                   "bottom":  208,
+                                                                                                   "row":  1,
+                                                                                                   "column":  0
+                                                                                               },
+                                                                                               {
+                                                                                                   "left":  205,
+                                                                                                   "top":  182,
+                                                                                                   "right":  229,
+                                                                                                   "bottom":  206,
+                                                                                                   "row":  1,
+                                                                                                   "column":  1
+                                                                                               },
+                                                                                               {
+                                                                                                   "left":  287,
+                                                                                                   "top":  182,
+                                                                                                   "right":  310,
+                                                                                                   "bottom":  206,
+                                                                                                   "row":  1,
+                                                                                                   "column":  2
+                                                                                               },
+                                                                                               {
+                                                                                                   "left":  364,
+                                                                                                   "top":  182,
+                                                                                                   "right":  382,
+                                                                                                   "bottom":  207,
+                                                                                                   "row":  1,
+                                                                                                   "column":  3
+                                                                                               },
+                                                                                               {
+                                                                                                   "left":  445,
+                                                                                                   "top":  182,
+                                                                                                   "right":  464,
+                                                                                                   "bottom":  207,
+                                                                                                   "row":  1,
+                                                                                                   "column":  4
+                                                                                               },
+                                                                                               {
+                                                                                                   "left":  513,
+                                                                                                   "top":  182,
+                                                                                                   "right":  549,
+                                                                                                   "bottom":  207,
+                                                                                                   "row":  1,
+                                                                                                   "column":  5
+                                                                                               },
+                                                                                               {
+                                                                                                   "left":  594,
+                                                                                                   "top":  182,
+                                                                                                   "right":  630,
+                                                                                                   "bottom":  207,
+                                                                                                   "row":  1,
+                                                                                                   "column":  6
+                                                                                               },
+                                                                                               {
+                                                                                                   "left":  668,
+                                                                                                   "top":  182,
+                                                                                                   "right":  718,
+                                                                                                   "bottom":  207,
+                                                                                                   "row":  1,
+                                                                                                   "column":  7
+                                                                                               },
+                                                                                               {
+                                                                                                   "left":  745,
+                                                                                                   "top":  182,
+                                                                                                   "right":  794,
+                                                                                                   "bottom":  207,
+                                                                                                   "row":  1,
+                                                                                                   "column":  8
+                                                                                               },
+                                                                                               {
+                                                                                                   "left":  824,
+                                                                                                   "top":  182,
+                                                                                                   "right":  873,
+                                                                                                   "bottom":  207,
+                                                                                                   "row":  1,
+                                                                                                   "column":  9
+                                                                                               }
+                                                                                           ]
+                                                                         },
+                                                                         {
+                                                                             "top":  226,
+                                                                             "bottom":  291,
+                                                                             "centerY":  258.5,
+                                                                             "baselineY":  270,
+                                                                             "background":  "#ffffff",
+                                                                             "glyphBounds":  {
+                                                                                                 "top":  249,
+                                                                                                 "bottom":  269
+                                                                                             },
+                                                                             "cellMasks":  [
+                                                                                               {
+                                                                                                   "left":  53,
+                                                                                                   "top":  247,
+                                                                                                   "right":  158,
+                                                                                                   "bottom":  272,
+                                                                                                   "row":  2,
+                                                                                                   "column":  0
+                                                                                               },
+                                                                                               {
+                                                                                                   "left":  202,
+                                                                                                   "top":  255,
+                                                                                                   "right":  232,
+                                                                                                   "bottom":  263,
+                                                                                                   "row":  2,
+                                                                                                   "column":  1
+                                                                                               },
+                                                                                               {
+                                                                                                   "left":  287,
+                                                                                                   "top":  247,
+                                                                                                   "right":  310,
+                                                                                                   "bottom":  271,
+                                                                                                   "row":  2,
+                                                                                                   "column":  2
+                                                                                               },
+                                                                                               {
+                                                                                                   "left":  365,
+                                                                                                   "top":  247,
+                                                                                                   "right":  382,
+                                                                                                   "bottom":  271,
+                                                                                                   "row":  2,
+                                                                                                   "column":  3
+                                                                                               },
+                                                                                               {
+                                                                                                   "left":  446,
+                                                                                                   "top":  247,
+                                                                                                   "right":  463,
+                                                                                                   "bottom":  271,
+                                                                                                   "row":  2,
+                                                                                                   "column":  4
+                                                                                               },
+                                                                                               {
+                                                                                                   "left":  513,
+                                                                                                   "top":  247,
+                                                                                                   "right":  548,
+                                                                                                   "bottom":  271,
+                                                                                                   "row":  2,
+                                                                                                   "column":  5
+                                                                                               },
+                                                                                               {
+                                                                                                   "left":  595,
+                                                                                                   "top":  246,
+                                                                                                   "right":  629,
+                                                                                                   "bottom":  271,
+                                                                                                   "row":  2,
+                                                                                                   "column":  6
+                                                                                               },
+                                                                                               {
+                                                                                                   "left":  668,
+                                                                                                   "top":  246,
+                                                                                                   "right":  717,
+                                                                                                   "bottom":  271,
+                                                                                                   "row":  2,
+                                                                                                   "column":  7
+                                                                                               },
+                                                                                               {
+                                                                                                   "left":  745,
+                                                                                                   "top":  246,
+                                                                                                   "right":  794,
+                                                                                                   "bottom":  271,
+                                                                                                   "row":  2,
+                                                                                                   "column":  8
+                                                                                               },
+                                                                                               {
+                                                                                                   "left":  824,
+                                                                                                   "top":  246,
+                                                                                                   "right":  873,
+                                                                                                   "bottom":  271,
+                                                                                                   "row":  2,
+                                                                                                   "column":  9
+                                                                                               }
+                                                                                           ]
+                                                                         },
+                                                                         {
+                                                                             "top":  291,
+                                                                             "bottom":  356,
+                                                                             "centerY":  321.5,
+                                                                             "baselineY":  333,
+                                                                             "background":  "#ececec",
+                                                                             "glyphBounds":  {
+                                                                                                 "top":  312,
+                                                                                                 "bottom":  332
+                                                                                             },
+                                                                             "cellMasks":  [
+                                                                                               {
+                                                                                                   "left":  53,
+                                                                                                   "top":  309,
+                                                                                                   "right":  158,
+                                                                                                   "bottom":  335,
+                                                                                                   "row":  3,
+                                                                                                   "column":  0
+                                                                                               },
+                                                                                               {
+                                                                                                   "left":  202,
+                                                                                                   "top":  316,
+                                                                                                   "right":  232,
+                                                                                                   "bottom":  324,
+                                                                                                   "row":  3,
+                                                                                                   "column":  1
+                                                                                               },
+                                                                                               {
+                                                                                                   "left":  280,
+                                                                                                   "top":  317,
+                                                                                                   "right":  310,
+                                                                                                   "bottom":  325,
+                                                                                                   "row":  3,
+                                                                                                   "column":  2
+                                                                                               },
+                                                                                               {
+                                                                                                   "left":  364,
+                                                                                                   "top":  310,
+                                                                                                   "right":  382,
+                                                                                                   "bottom":  335,
+                                                                                                   "row":  3,
+                                                                                                   "column":  3
+                                                                                               },
+                                                                                               {
+                                                                                                   "left":  445,
+                                                                                                   "top":  311,
+                                                                                                   "right":  464,
+                                                                                                   "bottom":  335,
+                                                                                                   "row":  3,
+                                                                                                   "column":  4
+                                                                                               },
+                                                                                               {
+                                                                                                   "left":  513,
+                                                                                                   "top":  310,
+                                                                                                   "right":  548,
+                                                                                                   "bottom":  335,
+                                                                                                   "row":  3,
+                                                                                                   "column":  5
+                                                                                               },
+                                                                                               {
+                                                                                                   "left":  594,
+                                                                                                   "top":  310,
+                                                                                                   "right":  630,
+                                                                                                   "bottom":  335,
+                                                                                                   "row":  3,
+                                                                                                   "column":  6
+                                                                                               },
+                                                                                               {
+                                                                                                   "left":  668,
+                                                                                                   "top":  310,
+                                                                                                   "right":  717,
+                                                                                                   "bottom":  335,
+                                                                                                   "row":  3,
+                                                                                                   "column":  7
+                                                                                               },
+                                                                                               {
+                                                                                                   "left":  745,
+                                                                                                   "top":  310,
+                                                                                                   "right":  794,
+                                                                                                   "bottom":  335,
+                                                                                                   "row":  3,
+                                                                                                   "column":  8
+                                                                                               },
+                                                                                               {
+                                                                                                   "left":  824,
+                                                                                                   "top":  310,
+                                                                                                   "right":  873,
+                                                                                                   "bottom":  335,
+                                                                                                   "row":  3,
+                                                                                                   "column":  9
+                                                                                               }
+                                                                                           ]
+                                                                         }
+                                                                     ],
+                                                        "font":  {
+                                                                     "family":  "Arial, sans-serif",
+                                                                     "size":  27,
+                                                                     "weight":  400,
+                                                                     "color":  "#777777",
+                                                                     "textAlign":  "center",
+                                                                     "textBaseline":  "alphabetic"
+                                                                 },
+                                                        "referenceSampleValues":  [
+                                                                                      [
+                                                                                          "",
+                                                                                          "",
+                                                                                          "",
+                                                                                          "",
+                                                                                          "",
+                                                                                          "",
+                                                                                          "",
+                                                                                          "",
+                                                                                          "",
+                                                                                          ""
+                                                                                      ],
+                                                                                      [
+                                                                                          "",
+                                                                                          "",
+                                                                                          "",
+                                                                                          "",
+                                                                                          "",
+                                                                                          "",
+                                                                                          "",
+                                                                                          "",
+                                                                                          "",
+                                                                                          ""
+                                                                                      ],
+                                                                                      [
+                                                                                          "",
+                                                                                          "",
+                                                                                          "",
+                                                                                          "",
+                                                                                          "",
+                                                                                          "",
+                                                                                          "",
+                                                                                          "",
+                                                                                          "",
+                                                                                          ""
+                                                                                      ],
+                                                                                      [
+                                                                                          "",
+                                                                                          "",
+                                                                                          "",
+                                                                                          "",
+                                                                                          "",
+                                                                                          "",
+                                                                                          "",
+                                                                                          "",
+                                                                                          "",
+                                                                                          ""
+                                                                                      ]
+                                                                                  ],
+                                                        "sampleOnly":  true
+                                                    },
+                                          "editableCellMasks":  [
+                                                                    {
+                                                                        "left":  53,
+                                                                        "top":  117,
+                                                                        "right":  158,
+                                                                        "bottom":  143,
+                                                                        "row":  0,
+                                                                        "column":  0
+                                                                    },
+                                                                    {
+                                                                        "left":  205,
+                                                                        "top":  118,
+                                                                        "right":  228,
+                                                                        "bottom":  142,
+                                                                        "row":  0,
+                                                                        "column":  1
+                                                                    },
+                                                                    {
+                                                                        "left":  287,
+                                                                        "top":  118,
+                                                                        "right":  310,
+                                                                        "bottom":  142,
+                                                                        "row":  0,
+                                                                        "column":  2
+                                                                    },
+                                                                    {
+                                                                        "left":  365,
+                                                                        "top":  118,
+                                                                        "right":  382,
+                                                                        "bottom":  142,
+                                                                        "row":  0,
+                                                                        "column":  3
+                                                                    },
+                                                                    {
+                                                                        "left":  446,
+                                                                        "top":  118,
+                                                                        "right":  463,
+                                                                        "bottom":  142,
+                                                                        "row":  0,
+                                                                        "column":  4
+                                                                    },
+                                                                    {
+                                                                        "left":  513,
+                                                                        "top":  118,
+                                                                        "right":  548,
+                                                                        "bottom":  142,
+                                                                        "row":  0,
+                                                                        "column":  5
+                                                                    },
+                                                                    {
+                                                                        "left":  595,
+                                                                        "top":  118,
+                                                                        "right":  629,
+                                                                        "bottom":  142,
+                                                                        "row":  0,
+                                                                        "column":  6
+                                                                    },
+                                                                    {
+                                                                        "left":  668,
+                                                                        "top":  118,
+                                                                        "right":  717,
+                                                                        "bottom":  142,
+                                                                        "row":  0,
+                                                                        "column":  7
+                                                                    },
+                                                                    {
+                                                                        "left":  745,
+                                                                        "top":  118,
+                                                                        "right":  793,
+                                                                        "bottom":  142,
+                                                                        "row":  0,
+                                                                        "column":  8
+                                                                    },
+                                                                    {
+                                                                        "left":  824,
+                                                                        "top":  118,
+                                                                        "right":  873,
+                                                                        "bottom":  143,
+                                                                        "row":  0,
+                                                                        "column":  9
+                                                                    },
+                                                                    {
+                                                                        "left":  52,
+                                                                        "top":  182,
+                                                                        "right":  158,
+                                                                        "bottom":  208,
+                                                                        "row":  1,
+                                                                        "column":  0
+                                                                    },
+                                                                    {
+                                                                        "left":  205,
+                                                                        "top":  182,
+                                                                        "right":  229,
+                                                                        "bottom":  206,
+                                                                        "row":  1,
+                                                                        "column":  1
+                                                                    },
+                                                                    {
+                                                                        "left":  287,
+                                                                        "top":  182,
+                                                                        "right":  310,
+                                                                        "bottom":  206,
+                                                                        "row":  1,
+                                                                        "column":  2
+                                                                    },
+                                                                    {
+                                                                        "left":  364,
+                                                                        "top":  182,
+                                                                        "right":  382,
+                                                                        "bottom":  207,
+                                                                        "row":  1,
+                                                                        "column":  3
+                                                                    },
+                                                                    {
+                                                                        "left":  445,
+                                                                        "top":  182,
+                                                                        "right":  464,
+                                                                        "bottom":  207,
+                                                                        "row":  1,
+                                                                        "column":  4
+                                                                    },
+                                                                    {
+                                                                        "left":  513,
+                                                                        "top":  182,
+                                                                        "right":  549,
+                                                                        "bottom":  207,
+                                                                        "row":  1,
+                                                                        "column":  5
+                                                                    },
+                                                                    {
+                                                                        "left":  594,
+                                                                        "top":  182,
+                                                                        "right":  630,
+                                                                        "bottom":  207,
+                                                                        "row":  1,
+                                                                        "column":  6
+                                                                    },
+                                                                    {
+                                                                        "left":  668,
+                                                                        "top":  182,
+                                                                        "right":  718,
+                                                                        "bottom":  207,
+                                                                        "row":  1,
+                                                                        "column":  7
+                                                                    },
+                                                                    {
+                                                                        "left":  745,
+                                                                        "top":  182,
+                                                                        "right":  794,
+                                                                        "bottom":  207,
+                                                                        "row":  1,
+                                                                        "column":  8
+                                                                    },
+                                                                    {
+                                                                        "left":  824,
+                                                                        "top":  182,
+                                                                        "right":  873,
+                                                                        "bottom":  207,
+                                                                        "row":  1,
+                                                                        "column":  9
+                                                                    },
+                                                                    {
+                                                                        "left":  53,
+                                                                        "top":  247,
+                                                                        "right":  158,
+                                                                        "bottom":  272,
+                                                                        "row":  2,
+                                                                        "column":  0
+                                                                    },
+                                                                    {
+                                                                        "left":  202,
+                                                                        "top":  255,
+                                                                        "right":  232,
+                                                                        "bottom":  263,
+                                                                        "row":  2,
+                                                                        "column":  1
+                                                                    },
+                                                                    {
+                                                                        "left":  287,
+                                                                        "top":  247,
+                                                                        "right":  310,
+                                                                        "bottom":  271,
+                                                                        "row":  2,
+                                                                        "column":  2
+                                                                    },
+                                                                    {
+                                                                        "left":  365,
+                                                                        "top":  247,
+                                                                        "right":  382,
+                                                                        "bottom":  271,
+                                                                        "row":  2,
+                                                                        "column":  3
+                                                                    },
+                                                                    {
+                                                                        "left":  446,
+                                                                        "top":  247,
+                                                                        "right":  463,
+                                                                        "bottom":  271,
+                                                                        "row":  2,
+                                                                        "column":  4
+                                                                    },
+                                                                    {
+                                                                        "left":  513,
+                                                                        "top":  247,
+                                                                        "right":  548,
+                                                                        "bottom":  271,
+                                                                        "row":  2,
+                                                                        "column":  5
+                                                                    },
+                                                                    {
+                                                                        "left":  595,
+                                                                        "top":  246,
+                                                                        "right":  629,
+                                                                        "bottom":  271,
+                                                                        "row":  2,
+                                                                        "column":  6
+                                                                    },
+                                                                    {
+                                                                        "left":  668,
+                                                                        "top":  246,
+                                                                        "right":  717,
+                                                                        "bottom":  271,
+                                                                        "row":  2,
+                                                                        "column":  7
+                                                                    },
+                                                                    {
+                                                                        "left":  745,
+                                                                        "top":  246,
+                                                                        "right":  794,
+                                                                        "bottom":  271,
+                                                                        "row":  2,
+                                                                        "column":  8
+                                                                    },
+                                                                    {
+                                                                        "left":  824,
+                                                                        "top":  246,
+                                                                        "right":  873,
+                                                                        "bottom":  271,
+                                                                        "row":  2,
+                                                                        "column":  9
+                                                                    },
+                                                                    {
+                                                                        "left":  53,
+                                                                        "top":  309,
+                                                                        "right":  158,
+                                                                        "bottom":  335,
+                                                                        "row":  3,
+                                                                        "column":  0
+                                                                    },
+                                                                    {
+                                                                        "left":  202,
+                                                                        "top":  316,
+                                                                        "right":  232,
+                                                                        "bottom":  324,
+                                                                        "row":  3,
+                                                                        "column":  1
+                                                                    },
+                                                                    {
+                                                                        "left":  280,
+                                                                        "top":  317,
+                                                                        "right":  310,
+                                                                        "bottom":  325,
+                                                                        "row":  3,
+                                                                        "column":  2
+                                                                    },
+                                                                    {
+                                                                        "left":  364,
+                                                                        "top":  310,
+                                                                        "right":  382,
+                                                                        "bottom":  335,
+                                                                        "row":  3,
+                                                                        "column":  3
+                                                                    },
+                                                                    {
+                                                                        "left":  445,
+                                                                        "top":  311,
+                                                                        "right":  464,
+                                                                        "bottom":  335,
+                                                                        "row":  3,
+                                                                        "column":  4
+                                                                    },
+                                                                    {
+                                                                        "left":  513,
+                                                                        "top":  310,
+                                                                        "right":  548,
+                                                                        "bottom":  335,
+                                                                        "row":  3,
+                                                                        "column":  5
+                                                                    },
+                                                                    {
+                                                                        "left":  594,
+                                                                        "top":  310,
+                                                                        "right":  630,
+                                                                        "bottom":  335,
+                                                                        "row":  3,
+                                                                        "column":  6
+                                                                    },
+                                                                    {
+                                                                        "left":  668,
+                                                                        "top":  310,
+                                                                        "right":  717,
+                                                                        "bottom":  335,
+                                                                        "row":  3,
+                                                                        "column":  7
+                                                                    },
+                                                                    {
+                                                                        "left":  745,
+                                                                        "top":  310,
+                                                                        "right":  794,
+                                                                        "bottom":  335,
+                                                                        "row":  3,
+                                                                        "column":  8
+                                                                    },
+                                                                    {
+                                                                        "left":  824,
+                                                                        "top":  310,
+                                                                        "right":  873,
+                                                                        "bottom":  335,
+                                                                        "row":  3,
+                                                                        "column":  9
+                                                                    }
+                                                                ],
+                                          "screenshotToolbarMasks":  [
+
+                                                                     ]
+                                      }
+               },
+    "measurementDiagram":  {
+                               "asset":  "assets/pants-reference/measurement-diagram-original.png",
+                               "cropBox":  [
+                                               40,
+                                               1580,
+                                               300,
+                                               2044
+                                           ],
+                               "width":  260,
+                               "height":  464
+                           },
+    "informationTitle":  {
+                             "asset":  "assets/pants-reference/information-title-original.png",
+                             "cropBox":  [
+                                             350,
+                                             1378,
+                                             605,
+                                             1465
+                                         ],
+                             "width":  255,
+                             "height":  87
+                         },
+    "policy":  {
+                   "rasterOrigin":  "Fresh blank bitmap and original vector/text drawing; no user product image pixels.",
+                   "editableData":  "Blank. Supply your own verified product measurements before export.",
+                   "geometry":  "Existing layout dimensions, row/column coordinates and cell masks retained for compatibility."
+               }
+}

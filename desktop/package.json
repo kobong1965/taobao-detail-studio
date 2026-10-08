@@ -1,0 +1,8 @@
+{
+  "name": "taobao-detail-studio-desktop",
+  "productName": "衣序 · 详情页工作室",
+  "version": "0.1.7-preview",
+  "private": true,
+  "description": "Portable Windows editor for apparel detail pages",
+  "main": "main.cjs"
+}

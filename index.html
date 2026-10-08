@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; connect-src 'self'; font-src 'self' data:; object-src 'none'; frame-src 'none'; base-uri 'self'" />
+    <meta name="color-scheme" content="light dark" />
+    <title>衣序 · 详情页工作室</title>
+    <meta name="description" content="为服装商品整理素材、编辑模板并导出详情页的工作室。" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="app.css" />
+  </head>
+  <body data-theme="light">
+    <a class="skip-link" href="#canvas-viewport">跳到详情页画布</a>
+    <main class="app-shell" aria-label="衣序详情页工作室">
+      <header class="app-header">
+        <div class="brand" aria-label="衣序，详情页工作室">
+          <span class="brand-mark" aria-hidden="true"><i data-lucide="panels-top-left"></i></span>
+          <div class="brand-copy"><span class="brand-name">衣序</span><span class="brand-caption">详情页工作室</span></div>
+        </div>
+        <div class="project-heading">
+          <h1 id="project-name" contenteditable="true" spellcheck="false" role="textbox" aria-label="工程名称" tabindex="0">秋日上衣 · 示例工程</h1>
+          <span class="save-indicator"><i data-lucide="check" aria-hidden="true"></i><span id="save-status" role="status">已自动保存到本机</span></span>
+        </div>
+        <div class="header-actions" aria-label="工程操作">
+          <button class="button button-outline" data-action="save-project" title="保存当前项目到项目库"><i data-lucide="save" aria-hidden="true"></i><span>保存项目</span></button>
+          <button class="button button-quiet" data-action="save-and-export" title="保存项目并导出 JPG"><i data-lucide="folder-check" aria-hidden="true"></i><span>保存并导出</span></button>
+          <button class="button button-quiet header-update" data-action="update-content" title="更新图片与尺码，保留你调整的布局"><i data-lucide="refresh-cw" aria-hidden="true"></i><span>更新内容</span></button>
+          <button class="button button-outline header-relayout" data-action="auto-layout" title="使用当前模板重新排列所有内容"><i data-lucide="layout-template" aria-hidden="true"></i><span>重新套用模板</span></button>
+          <span class="header-divider" aria-hidden="true"></span>
+          <button class="button button-primary export-button" data-action="export"><i data-lucide="download" aria-hidden="true"></i><span>导出 JPG</span></button>
+        </div>
+      </header>
+
+      <div class="workspace">
+        <nav class="navigation-rail" aria-label="工作室导航">
+          <div class="rail-main">
+            <button class="nav-button is-active" data-nav="assets" aria-label="素材" aria-selected="true" title="素材"><i data-lucide="images" aria-hidden="true"></i><span>素材</span></button>
+            <button class="nav-button" data-nav="templates" aria-label="模板" aria-selected="false" title="模板"><i data-lucide="layout-template" aria-hidden="true"></i><span>模板</span></button>
+            <button class="nav-button" data-nav="layers" aria-label="图层" aria-selected="false" title="图层"><i data-lucide="layers-2" aria-hidden="true"></i><span>图层</span></button>
+            <button class="nav-button" data-nav="projects" aria-label="项目库" aria-selected="false" title="项目库"><i data-lucide="folder-open" aria-hidden="true"></i><span>项目库</span></button>
+          </div>
+          <div class="rail-bottom">
+            <button class="nav-button utility-nav" data-action="api-settings" aria-label="识别服务设置" title="识别服务设置"><i data-lucide="settings-2" aria-hidden="true"></i><span>设置</span></button>
+            <button class="icon-button theme-button" data-action="toggle-theme" aria-label="切换浅色与深色界面" title="切换浅色与深色界面"><i data-lucide="sun-moon" aria-hidden="true"></i></button>
+          </div>
+        </nav>
+
+        <aside class="source-panel" aria-label="素材与工程面板">
+          <section class="side-panel" data-panel="assets" aria-labelledby="assets-title">
+            <div class="panel-heading"><h2 id="assets-title">商品素材</h2><span class="count-label" id="material-count">2 张</span></div>
+            <div class="panel-scroll asset-scroll"><div id="asset-list" aria-label="已导入的商品图片"></div></div>
+          </section>
+
+          <section class="side-panel" data-panel="templates" aria-labelledby="templates-title" hidden>
+            <div class="panel-heading"><h2 id="templates-title">我的模板</h2><i data-lucide="layout-template" class="panel-heading-icon" aria-hidden="true"></i></div>
+            <p class="panel-description">保存常用布局，让下一款商品直接套用。</p>
+            <div class="panel-scroll"><div id="template-list" class="template-list" aria-label="可用模板"></div></div>
+          </section>
+
+          <section class="side-panel" data-panel="layers" aria-labelledby="layers-title" hidden>
+            <div class="panel-heading"><h2 id="layers-title">画布图层</h2><i data-lucide="layers-2" class="panel-heading-icon" aria-hidden="true"></i></div>
+            <div class="import-buttons"><button class="button button-outline" data-action="add-text"><i data-lucide="type" aria-hidden="true"></i><span>文字</span></button><button class="button button-outline" data-action="add-image"><i data-lucide="image-plus" aria-hidden="true"></i><span>图片</span></button></div>
+            <div class="panel-scroll"><div id="layer-list" class="layer-list" aria-label="详情页图层"></div></div>
+            <div class="panel-footnote"><i data-lucide="mouse-pointer-2" aria-hidden="true"></i><span>点选图层或画布元素，即可修改内容与位置。</span></div>
+          </section>
+
+          <section class="side-panel" data-panel="projects" aria-labelledby="projects-title" hidden>
+            <div class="panel-heading"><h2 id="projects-title">项目库</h2><i data-lucide="folder-open" class="panel-heading-icon" aria-hidden="true"></i></div>
+            <div class="panel-scroll"><div id="recent-list" class="recent-list" aria-label="已保存的本机工程"></div></div>
+            <div class="panel-footnote"><i data-lucide="hard-drive" aria-hidden="true"></i><span>每款商品独立保存，可以随时回来继续编辑。</span></div>
+          </section>
+        </aside>
+
+        <section class="canvas-workspace" aria-label="详情页编辑画布">
+          <div class="canvas-toolbar">
+            <div class="canvas-document"><span class="canvas-document-icon"><i data-lucide="scroll-text" aria-hidden="true"></i></span><div><strong>详情页画布</strong><span class="document-template-label">上衣 · 示例模板</span></div></div>
+            <div class="canvas-tools" aria-label="画布工具">
+              <div class="history-buttons"><button class="icon-button" data-action="undo" aria-label="撤销" title="撤销 Ctrl+Z"><i data-lucide="undo-2" aria-hidden="true"></i></button><button class="icon-button" data-action="redo" aria-label="重做" title="重做 Ctrl+Shift+Z"><i data-lucide="redo-2" aria-hidden="true"></i></button></div>
+              <span class="toolbar-divider" aria-hidden="true"></span>
+              <button class="icon-button" data-action="add-text" aria-label="添加文字" title="添加文字"><i data-lucide="type" aria-hidden="true"></i></button>
+              <button class="icon-button" data-action="add-image" aria-label="添加图片" title="添加图片"><i data-lucide="image-plus" aria-hidden="true"></i></button>
+            </div>
+          </div>
+          <div class="ruler-bar" aria-hidden="true"><span class="ruler-corner">px</span><div id="ruler-horizontal" class="ruler-horizontal"></div></div>
+          <div id="canvas-viewport" class="canvas-viewport" tabindex="0" aria-label="连续详情页画布，可滚动查看">
+            <div class="canvas-preview-label"><span>连续详情页</span><span>虚线为 1920 px 导出切线</span></div>
+            <div id="canvas-stage" class="canvas-stage"><div id="artboard" class="artboard" aria-label="可编辑详情页内容"></div><div id="page-guides" class="page-guides" aria-hidden="true"></div></div>
+            <div class="canvas-end-label"><span class="canvas-end-rule"></span><span>详情页结尾</span><span class="canvas-end-rule"></span></div>
+          </div>
+        </section>
+
+        <aside class="inspector-panel" aria-label="选中元素属性">
+          <div class="panel-heading inspector-title"><h2>设计属性</h2><i data-lucide="sliders-horizontal" class="panel-heading-icon" aria-hidden="true"></i></div>
+          <div class="selection-summary"><span class="selection-summary-icon"><i data-lucide="mouse-pointer-2" aria-hidden="true"></i></span><div><strong id="selection-label">选择画布中的元素</strong><span>调整图片、文字与尺码表</span></div></div>
+          <div id="inspector-content" class="inspector-content"></div>
+          <div class="inspector-bottom"><i data-lucide="mouse-pointer-2" aria-hidden="true"></i><p>图片板块可以点击更换。<br />在画布上拖动，调整排版位置。</p></div>
+        </aside>
+      </div>
+
+      <footer class="status-bar">
+        <div class="status-left"><span class="status-project"><i data-lucide="hard-drive" aria-hidden="true"></i><span>本机工程</span></span><span class="status-separator" aria-hidden="true"></span><span id="canvas-size" class="canvas-size">1440 px 宽</span></div>
+        <div class="status-middle"><i data-lucide="scissors" aria-hidden="true"></i><span>JPG · 每张 1440 × 1920 px，末张按内容高度</span></div>
+        <div class="zoom-controls" aria-label="画布缩放"><button class="icon-button" data-action="zoom-out" aria-label="缩小画布" title="缩小"><i data-lucide="minus" aria-hidden="true"></i></button><span id="zoom-value" class="zoom-value">40%</span><button class="icon-button" data-action="zoom-in" aria-label="放大画布" title="放大"><i data-lucide="plus" aria-hidden="true"></i></button><span class="status-separator" aria-hidden="true"></span><button class="fit-button" data-action="fit-width" title="让画布宽度适应工作区"><i data-lucide="maximize" aria-hidden="true"></i><span>适应宽度</span></button></div>
+      </footer>
+    </main>
+    <input id="file-input" type="file" accept="image/*" multiple hidden />
+    <div id="modal-root"></div>
+    <div id="toast-root" role="status" aria-live="polite" aria-atomic="true"></div>
+    <script src="assets/lucide.min.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>

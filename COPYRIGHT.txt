@@ -1,0 +1,6 @@
+衣序 · 详情页工作室
+Copyright (c) 2026 kobong1965. All rights reserved.
+
+本项目公开提供源码查看及 Windows 测试版下载。公开仓库本身不自动授予其他使用、修改或再分发许可。
+第三方组件保留各自许可证：Lucide（assets/lucide-LICENSE）、Electron（便携包 LICENSE）及 Chromium（便携包 LICENSES.chromium.html）。
+公开包内占位图和表格底图由本项目生成；商品图片、尺码数据和 API 配置由使用者自行提供，保存在本机。

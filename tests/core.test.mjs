@@ -1,0 +1,4 @@
+import test from 'node:test';import assert from 'node:assert/strict';import {mapSizeData,jpgSegments} from '../core.mjs';
+test('外部尺码表按固定模板字段映射和排序',()=>{const result=mapSizeData(['尺码','衣长','胸围','肩宽'],{columns:['胸围(cm)','SIZE','衣长'],rows:[['112','L','70'],['104','S','66'],['108','M','68']]},['S','M','L']);assert.deepEqual(result.data,{columns:['尺码','衣长','胸围','肩宽'],rows:[['S','66','104',''],['M','68','108',''],['L','70','112','']]});assert.deepEqual(result.missing,['肩宽']);});
+test('胸宽不能推断成胸围',()=>{const r=mapSizeData(['尺码','胸围'],{columns:['尺码','胸宽'],rows:[['M','54']]});assert.deepEqual(r.data.rows,[['M','']]);});
+test('硬切JPG尾张不填充且不生成空白尾张',()=>{assert.deepEqual(jpgSegments(4100),[{width:1440,height:1920,offset:0},{width:1440,height:1920,offset:1920},{width:1440,height:260,offset:3840}]);assert.equal(jpgSegments(3840).length,2);});

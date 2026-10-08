@@ -1,0 +1,17 @@
+data/
+exports/
+temp/
+cache/
+node_modules/
+dist/
+build/
+*.log
+*.yixu
+*.zip
+*.exe
+*.env
+.env*
+config.local.json
+desktop-profile/
+smoke-profile/
+release-smoke/

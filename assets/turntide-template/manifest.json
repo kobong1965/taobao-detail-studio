@@ -1,0 +1,1027 @@
+{
+    "version":  2,
+    "id":  "turntide-four-blocks",
+    "name":  "服装详情 · 四板块公开模板",
+    "sequence":  [
+                     "hero",
+                     "size",
+                     "details",
+                     "models",
+                     "footer"
+                 ],
+    "hero":  [
+                 {
+                     "asset":  "assets/turntide-template/hero.png",
+                     "name":  "上传首图 · 自有占位图",
+                     "group":  "hero",
+                     "role":  "cover",
+                     "width":  1500,
+                     "height":  1996
+                 }
+             ],
+    "details":  [
+                    {
+                        "asset":  "assets/turntide-template/detail-01.png",
+                        "name":  "产品细节 1",
+                        "group":  "details",
+                        "role":  "details",
+                        "width":  416,
+                        "height":  312,
+                        "cropBox":  [
+                                        122,
+                                        218,
+                                        538,
+                                        530
+                                    ],
+                        "frame":  {
+                                      "x":  122,
+                                      "y":  218,
+                                      "w":  416,
+                                      "h":  312,
+                                      "column":  0,
+                                      "row":  0
+                                  }
+                    },
+                    {
+                        "asset":  "assets/turntide-template/detail-02.png",
+                        "name":  "产品细节 2",
+                        "group":  "details",
+                        "role":  "details",
+                        "width":  414,
+                        "height":  312,
+                        "cropBox":  [
+                                        559,
+                                        218,
+                                        973,
+                                        530
+                                    ],
+                        "frame":  {
+                                      "x":  559,
+                                      "y":  218,
+                                      "w":  414,
+                                      "h":  312,
+                                      "column":  1,
+                                      "row":  0
+                                  }
+                    },
+                    {
+                        "asset":  "assets/turntide-template/detail-03.png",
+                        "name":  "产品细节 3",
+                        "group":  "details",
+                        "role":  "details",
+                        "width":  418,
+                        "height":  319,
+                        "cropBox":  [
+                                        122,
+                                        548,
+                                        540,
+                                        867
+                                    ],
+                        "frame":  {
+                                      "x":  122,
+                                      "y":  548,
+                                      "w":  418,
+                                      "h":  319,
+                                      "column":  0,
+                                      "row":  1
+                                  }
+                    },
+                    {
+                        "asset":  "assets/turntide-template/detail-04.png",
+                        "name":  "产品细节 4",
+                        "group":  "details",
+                        "role":  "details",
+                        "width":  414,
+                        "height":  319,
+                        "cropBox":  [
+                                        561,
+                                        548,
+                                        975,
+                                        867
+                                    ],
+                        "frame":  {
+                                      "x":  561,
+                                      "y":  548,
+                                      "w":  414,
+                                      "h":  319,
+                                      "column":  1,
+                                      "row":  1
+                                  }
+                    }
+                ],
+    "models":  [
+                   {
+                       "asset":  "assets/turntide-template/model-01.png",
+                       "name":  "模特展示 1",
+                       "group":  "models",
+                       "role":  "models",
+                       "width":  911,
+                       "height":  1206,
+                       "cropBox":  [
+                                       73,
+                                       234,
+                                       984,
+                                       1440
+                                   ],
+                       "frame":  {
+                                     "x":  73,
+                                     "y":  234,
+                                     "w":  911,
+                                     "h":  1206,
+                                     "slot":  0
+                                 }
+                   },
+                   {
+                       "asset":  "assets/turntide-template/model-02.png",
+                       "name":  "模特展示 2",
+                       "group":  "models",
+                       "role":  "models",
+                       "width":  911,
+                       "height":  1206,
+                       "cropBox":  [
+                                       73,
+                                       1554,
+                                       984,
+                                       2760
+                                   ],
+                       "frame":  {
+                                     "x":  73,
+                                     "y":  1554,
+                                     "w":  911,
+                                     "h":  1206,
+                                     "slot":  1
+                                 }
+                   },
+                   {
+                       "asset":  "assets/turntide-template/model-03.png",
+                       "name":  "模特展示 3",
+                       "group":  "models",
+                       "role":  "models",
+                       "width":  911,
+                       "height":  1206,
+                       "cropBox":  [
+                                       73,
+                                       2874,
+                                       984,
+                                       4080
+                                   ],
+                       "frame":  {
+                                     "x":  73,
+                                     "y":  2874,
+                                     "w":  911,
+                                     "h":  1206,
+                                     "slot":  2
+                                 }
+                   },
+                   {
+                       "asset":  "assets/turntide-template/model-04.png",
+                       "name":  "模特展示 4",
+                       "group":  "models",
+                       "role":  "models",
+                       "width":  911,
+                       "height":  1206,
+                       "cropBox":  [
+                                       73,
+                                       4194,
+                                       984,
+                                       5400
+                                   ],
+                       "frame":  {
+                                     "x":  73,
+                                     "y":  4194,
+                                     "w":  911,
+                                     "h":  1206,
+                                     "slot":  3
+                                 }
+                   },
+                   {
+                       "asset":  "assets/turntide-template/model-05.png",
+                       "name":  "模特展示 5",
+                       "group":  "models",
+                       "role":  "models",
+                       "width":  911,
+                       "height":  1206,
+                       "cropBox":  [
+                                       73,
+                                       5514,
+                                       984,
+                                       6720
+                                   ],
+                       "frame":  {
+                                     "x":  73,
+                                     "y":  5514,
+                                     "w":  911,
+                                     "h":  1206,
+                                     "slot":  4
+                                 }
+                   },
+                   {
+                       "asset":  "assets/turntide-template/model-06.png",
+                       "name":  "模特展示 6",
+                       "group":  "models",
+                       "role":  "models",
+                       "width":  911,
+                       "height":  1206,
+                       "cropBox":  [
+                                       73,
+                                       6834,
+                                       984,
+                                       8040
+                                   ],
+                       "frame":  {
+                                     "x":  73,
+                                     "y":  6834,
+                                     "w":  911,
+                                     "h":  1206,
+                                     "slot":  5
+                                 }
+                   },
+                   {
+                       "asset":  "assets/turntide-template/model-07.png",
+                       "name":  "模特展示 7",
+                       "group":  "models",
+                       "role":  "models",
+                       "width":  911,
+                       "height":  1206,
+                       "cropBox":  [
+                                       73,
+                                       8154,
+                                       984,
+                                       9360
+                                   ],
+                       "frame":  {
+                                     "x":  73,
+                                     "y":  8154,
+                                     "w":  911,
+                                     "h":  1206,
+                                     "slot":  6
+                                 }
+                   },
+                   {
+                       "asset":  "assets/turntide-template/model-08.png",
+                       "name":  "模特展示 8",
+                       "group":  "models",
+                       "role":  "models",
+                       "width":  911,
+                       "height":  1206,
+                       "cropBox":  [
+                                       73,
+                                       9474,
+                                       984,
+                                       10680
+                                   ],
+                       "frame":  {
+                                     "x":  73,
+                                     "y":  9474,
+                                     "w":  911,
+                                     "h":  1206,
+                                     "slot":  7
+                                 }
+                   },
+                   {
+                       "asset":  "assets/turntide-template/model-09.png",
+                       "name":  "模特展示 9",
+                       "group":  "models",
+                       "role":  "models",
+                       "width":  911,
+                       "height":  1206,
+                       "cropBox":  [
+                                       73,
+                                       10794,
+                                       984,
+                                       12000
+                                   ],
+                       "frame":  {
+                                     "x":  73,
+                                     "y":  10794,
+                                     "w":  911,
+                                     "h":  1206,
+                                     "slot":  8
+                                 }
+                   }
+               ],
+    "footer":  [
+                   {
+                       "asset":  "assets/turntide-template/footer-service-cn.png",
+                       "name":  "购买提示 · 自有通用占位",
+                       "group":  "footer",
+                       "role":  "footer",
+                       "width":  1026,
+                       "height":  900,
+                       "cropBox":  [
+                                       0,
+                                       12114,
+                                       1026,
+                                       13014
+                                   ],
+                       "frame":  {
+                                     "x":  0,
+                                     "y":  12114,
+                                     "w":  1026,
+                                     "h":  900
+                                 },
+                       "footerVersion":  "chinese-only"
+                   }
+               ],
+    "layout":  {
+                   "hero":  {
+                                "sourceWidth":  1500,
+                                "sourceHeight":  1996,
+                                "x":  0,
+                                "y":  0,
+                                "w":  1500,
+                                "h":  1996
+                            },
+                   "size":  {
+                                "sourceWidth":  1037,
+                                "sourceHeight":  562,
+                                "x":  0,
+                                "y":  0,
+                                "w":  1037,
+                                "h":  562
+                            },
+                   "details":  {
+                                   "sourceWidth":  1052,
+                                   "sourceHeight":  925,
+                                   "frames":  [
+                                                  {
+                                                      "x":  122,
+                                                      "y":  218,
+                                                      "w":  416,
+                                                      "h":  312,
+                                                      "column":  0,
+                                                      "row":  0
+                                                  },
+                                                  {
+                                                      "x":  559,
+                                                      "y":  218,
+                                                      "w":  414,
+                                                      "h":  312,
+                                                      "column":  1,
+                                                      "row":  0
+                                                  },
+                                                  {
+                                                      "x":  122,
+                                                      "y":  548,
+                                                      "w":  418,
+                                                      "h":  319,
+                                                      "column":  0,
+                                                      "row":  1
+                                                  },
+                                                  {
+                                                      "x":  561,
+                                                      "y":  548,
+                                                      "w":  414,
+                                                      "h":  319,
+                                                      "column":  1,
+                                                      "row":  1
+                                                  }
+                                              ],
+                                   "titles":  [
+                                                  {
+                                                      "name":  "细节英文标题",
+                                                      "text":  "[PRODUCT DETAILS]",
+                                                      "x":  346,
+                                                      "y":  50,
+                                                      "w":  411,
+                                                      "h":  56,
+                                                      "fontSize":  44,
+                                                      "weight":  700,
+                                                      "align":  "center",
+                                                      "glyphBox":  [
+                                                                       346,
+                                                                       59,
+                                                                       757,
+                                                                       96
+                                                                   ]
+                                                  },
+                                                  {
+                                                      "name":  "细节中文标题",
+                                                      "text":  "产品细节",
+                                                      "x":  479,
+                                                      "y":  104,
+                                                      "w":  137,
+                                                      "h":  48,
+                                                      "fontSize":  34,
+                                                      "weight":  400,
+                                                      "align":  "center",
+                                                      "glyphBox":  [
+                                                                       479,
+                                                                       112,
+                                                                       616,
+                                                                       144
+                                                                   ]
+                                                  }
+                                              ]
+                               },
+                   "models":  {
+                                  "sourceWidth":  1026,
+                                  "sourceHeight":  12114,
+                                  "headerHeight":  234,
+                                  "photoX":  73,
+                                  "photoWidth":  911,
+                                  "photoHeight":  1206,
+                                  "photoStep":  1320,
+                                  "captionHeight":  114,
+                                  "titles":  [
+                                                 {
+                                                     "name":  "模特英文标题",
+                                                     "text":  "[MODEL DISPLAY]",
+                                                     "x":  353,
+                                                     "y":  55,
+                                                     "w":  357,
+                                                     "h":  56,
+                                                     "fontSize":  42,
+                                                     "weight":  400,
+                                                     "align":  "center",
+                                                     "glyphBox":  [
+                                                                      353,
+                                                                      64,
+                                                                      710,
+                                                                      101
+                                                                  ]
+                                                 },
+                                                 {
+                                                     "name":  "模特中文标题",
+                                                     "text":  "模特展示",
+                                                     "x":  459,
+                                                     "y":  109,
+                                                     "w":  137,
+                                                     "h":  48,
+                                                     "fontSize":  34,
+                                                     "weight":  400,
+                                                     "align":  "center",
+                                                     "glyphBox":  [
+                                                                      459,
+                                                                      117,
+                                                                      596,
+                                                                      150
+                                                                  ]
+                                                 }
+                                             ],
+                                  "caption":  {
+                                                  "brand":  {
+                                                                "text":  "服装展示",
+                                                                "x":  104,
+                                                                "y":  1467,
+                                                                "w":  300,
+                                                                "h":  60,
+                                                                "fontSize":  48,
+                                                                "weight":  400,
+                                                                "baselineY":  1515,
+                                                                "glyphBox":  [
+                                                                                 104,
+                                                                                 1481,
+                                                                                 306,
+                                                                                 1515
+                                                                             ]
+                                                            },
+                                                  "year":  {
+                                                               "text":  "产品图片",
+                                                               "x":  874,
+                                                               "y":  1472,
+                                                               "w":  80,
+                                                               "h":  28,
+                                                               "fontSize":  18,
+                                                               "weight":  400,
+                                                               "baselineY":  1492,
+                                                               "glyphBox":  [
+                                                                                874,
+                                                                                1479,
+                                                                                954,
+                                                                                1492
+                                                                            ]
+                                                           }
+                                              }
+                              },
+                   "footer":  {
+                                  "sourceWidth":  1026,
+                                  "sourceHeight":  3480,
+                                  "sourceY":  12114,
+                                  "retainedHeight":  900,
+                                  "removedBlueRange":  [
+                                                           14396,
+                                                           14543
+                                                       ],
+                                  "frames":  [
+                                                 {
+                                                     "x":  0,
+                                                     "y":  12114,
+                                                     "w":  1026,
+                                                     "h":  900
+                                                 }
+                                             ],
+                                  "retainedSourceRange":  [
+                                                              12114,
+                                                              13014
+                                                          ],
+                                  "trimmedAfterSourceY":  13014
+                              }
+               },
+    "size":  {
+                 "asset":  "assets/turntide-template/size-template.png",
+                 "originalAsset":  "assets/turntide-template/size-original.png",
+                 "width":  1037,
+                 "height":  562,
+                 "cropOrigin":  {
+                                    "x":  0,
+                                    "y":  0
+                                },
+                 "cropBox":  [
+                                 0,
+                                 0,
+                                 1037,
+                                 562
+                             ],
+                 "editableCellMasks":  [
+                                           {
+                                               "left":  215,
+                                               "top":  154,
+                                               "right":  236,
+                                               "bottom":  178,
+                                               "row":  0,
+                                               "column":  0
+                                           },
+                                           {
+                                               "left":  409,
+                                               "top":  151,
+                                               "right":  443,
+                                               "bottom":  176,
+                                               "row":  0,
+                                               "column":  1
+                                           },
+                                           {
+                                               "left":  558,
+                                               "top":  151,
+                                               "right":  601,
+                                               "bottom":  176,
+                                               "row":  0,
+                                               "column":  2
+                                           },
+                                           {
+                                               "left":  707,
+                                               "top":  151,
+                                               "right":  753,
+                                               "bottom":  177,
+                                               "row":  0,
+                                               "column":  3
+                                           },
+                                           {
+                                               "left":  864,
+                                               "top":  152,
+                                               "right":  898,
+                                               "bottom":  177,
+                                               "row":  0,
+                                               "column":  4
+                                           },
+                                           {
+                                               "left":  213,
+                                               "top":  221,
+                                               "right":  237,
+                                               "bottom":  245,
+                                               "row":  1,
+                                               "column":  0
+                                           },
+                                           {
+                                               "left":  409,
+                                               "top":  220,
+                                               "right":  443,
+                                               "bottom":  245,
+                                               "row":  1,
+                                               "column":  1
+                                           },
+                                           {
+                                               "left":  558,
+                                               "top":  220,
+                                               "right":  602,
+                                               "bottom":  245,
+                                               "row":  1,
+                                               "column":  2
+                                           },
+                                           {
+                                               "left":  707,
+                                               "top":  220,
+                                               "right":  753,
+                                               "bottom":  245,
+                                               "row":  1,
+                                               "column":  3
+                                           },
+                                           {
+                                               "left":  864,
+                                               "top":  220,
+                                               "right":  898,
+                                               "bottom":  245,
+                                               "row":  1,
+                                               "column":  4
+                                           },
+                                           {
+                                               "left":  216,
+                                               "top":  288,
+                                               "right":  235,
+                                               "bottom":  312,
+                                               "row":  2,
+                                               "column":  0
+                                           },
+                                           {
+                                               "left":  409,
+                                               "top":  288,
+                                               "right":  443,
+                                               "bottom":  313,
+                                               "row":  2,
+                                               "column":  1
+                                           },
+                                           {
+                                               "left":  557,
+                                               "top":  288,
+                                               "right":  603,
+                                               "bottom":  313,
+                                               "row":  2,
+                                               "column":  2
+                                           },
+                                           {
+                                               "left":  707,
+                                               "top":  288,
+                                               "right":  753,
+                                               "bottom":  313,
+                                               "row":  2,
+                                               "column":  3
+                                           },
+                                           {
+                                               "left":  864,
+                                               "top":  288,
+                                               "right":  898,
+                                               "bottom":  313,
+                                               "row":  2,
+                                               "column":  4
+                                           },
+                                           {
+                                               "left":  207,
+                                               "top":  355,
+                                               "right":  244,
+                                               "bottom":  379,
+                                               "row":  3,
+                                               "column":  0
+                                           },
+                                           {
+                                               "left":  409,
+                                               "top":  356,
+                                               "right":  443,
+                                               "bottom":  382,
+                                               "row":  3,
+                                               "column":  1
+                                           },
+                                           {
+                                               "left":  557,
+                                               "top":  356,
+                                               "right":  603,
+                                               "bottom":  381,
+                                               "row":  3,
+                                               "column":  2
+                                           },
+                                           {
+                                               "left":  707,
+                                               "top":  356,
+                                               "right":  753,
+                                               "bottom":  382,
+                                               "row":  3,
+                                               "column":  3
+                                           },
+                                           {
+                                               "left":  865,
+                                               "top":  356,
+                                               "right":  894,
+                                               "bottom":  382,
+                                               "row":  3,
+                                               "column":  4
+                                           }
+                                       ],
+                 "screenshotToolbarMasks":  [
+
+                                            ],
+                 "table":  {
+                               "columns":  [
+                                               "尺码（SIZE）",
+                                               "腰围",
+                                               "臀围",
+                                               "裤长",
+                                               "脚口"
+                                           ],
+                               "columnCount":  5,
+                               "colBounds":  [
+                                                 140,
+                                                 327,
+                                                 503,
+                                                 655,
+                                                 806,
+                                                 958
+                                             ],
+                               "columnCenters":  [
+                                                     225.0,
+                                                     425.5,
+                                                     579.5,
+                                                     729.5,
+                                                     880.5
+                                                 ],
+                               "headerRow":  {
+                                                 "top":  80,
+                                                 "bottom":  111
+                                             },
+                               "dataRows":  [
+                                                {
+                                                    "top":  132,
+                                                    "bottom":  197,
+                                                    "centerY":  164.0,
+                                                    "baselineY":  176,
+                                                    "cellBaselineY":  [
+                                                                          176,
+                                                                          174,
+                                                                          174,
+                                                                          175,
+                                                                          175
+                                                                      ],
+                                                    "background":  "#ffffff",
+                                                    "glyphBounds":  {
+                                                                        "top":  154,
+                                                                        "bottom":  175
+                                                                    },
+                                                    "cellMasks":  [
+                                                                      {
+                                                                          "left":  215,
+                                                                          "top":  154,
+                                                                          "right":  236,
+                                                                          "bottom":  178,
+                                                                          "row":  0,
+                                                                          "column":  0
+                                                                      },
+                                                                      {
+                                                                          "left":  409,
+                                                                          "top":  151,
+                                                                          "right":  443,
+                                                                          "bottom":  176,
+                                                                          "row":  0,
+                                                                          "column":  1
+                                                                      },
+                                                                      {
+                                                                          "left":  558,
+                                                                          "top":  151,
+                                                                          "right":  601,
+                                                                          "bottom":  176,
+                                                                          "row":  0,
+                                                                          "column":  2
+                                                                      },
+                                                                      {
+                                                                          "left":  707,
+                                                                          "top":  151,
+                                                                          "right":  753,
+                                                                          "bottom":  177,
+                                                                          "row":  0,
+                                                                          "column":  3
+                                                                      },
+                                                                      {
+                                                                          "left":  864,
+                                                                          "top":  152,
+                                                                          "right":  898,
+                                                                          "bottom":  177,
+                                                                          "row":  0,
+                                                                          "column":  4
+                                                                      }
+                                                                  ]
+                                                },
+                                                {
+                                                    "top":  197,
+                                                    "bottom":  264,
+                                                    "centerY":  232.0,
+                                                    "baselineY":  243,
+                                                    "cellBaselineY":  [
+                                                                          243,
+                                                                          243,
+                                                                          243,
+                                                                          243,
+                                                                          243
+                                                                      ],
+                                                    "background":  "#ffffff",
+                                                    "glyphBounds":  {
+                                                                        "top":  223,
+                                                                        "bottom":  242
+                                                                    },
+                                                    "cellMasks":  [
+                                                                      {
+                                                                          "left":  213,
+                                                                          "top":  221,
+                                                                          "right":  237,
+                                                                          "bottom":  245,
+                                                                          "row":  1,
+                                                                          "column":  0
+                                                                      },
+                                                                      {
+                                                                          "left":  409,
+                                                                          "top":  220,
+                                                                          "right":  443,
+                                                                          "bottom":  245,
+                                                                          "row":  1,
+                                                                          "column":  1
+                                                                      },
+                                                                      {
+                                                                          "left":  558,
+                                                                          "top":  220,
+                                                                          "right":  602,
+                                                                          "bottom":  245,
+                                                                          "row":  1,
+                                                                          "column":  2
+                                                                      },
+                                                                      {
+                                                                          "left":  707,
+                                                                          "top":  220,
+                                                                          "right":  753,
+                                                                          "bottom":  245,
+                                                                          "row":  1,
+                                                                          "column":  3
+                                                                      },
+                                                                      {
+                                                                          "left":  864,
+                                                                          "top":  220,
+                                                                          "right":  898,
+                                                                          "bottom":  245,
+                                                                          "row":  1,
+                                                                          "column":  4
+                                                                      }
+                                                                  ]
+                                                },
+                                                {
+                                                    "top":  264,
+                                                    "bottom":  332,
+                                                    "centerY":  300.0,
+                                                    "baselineY":  311,
+                                                    "cellBaselineY":  [
+                                                                          310,
+                                                                          311,
+                                                                          311,
+                                                                          311,
+                                                                          311
+                                                                      ],
+                                                    "background":  "#ffffff",
+                                                    "glyphBounds":  {
+                                                                        "top":  291,
+                                                                        "bottom":  310
+                                                                    },
+                                                    "cellMasks":  [
+                                                                      {
+                                                                          "left":  216,
+                                                                          "top":  288,
+                                                                          "right":  235,
+                                                                          "bottom":  312,
+                                                                          "row":  2,
+                                                                          "column":  0
+                                                                      },
+                                                                      {
+                                                                          "left":  409,
+                                                                          "top":  288,
+                                                                          "right":  443,
+                                                                          "bottom":  313,
+                                                                          "row":  2,
+                                                                          "column":  1
+                                                                      },
+                                                                      {
+                                                                          "left":  557,
+                                                                          "top":  288,
+                                                                          "right":  603,
+                                                                          "bottom":  313,
+                                                                          "row":  2,
+                                                                          "column":  2
+                                                                      },
+                                                                      {
+                                                                          "left":  707,
+                                                                          "top":  288,
+                                                                          "right":  753,
+                                                                          "bottom":  313,
+                                                                          "row":  2,
+                                                                          "column":  3
+                                                                      },
+                                                                      {
+                                                                          "left":  864,
+                                                                          "top":  288,
+                                                                          "right":  898,
+                                                                          "bottom":  313,
+                                                                          "row":  2,
+                                                                          "column":  4
+                                                                      }
+                                                                  ]
+                                                },
+                                                {
+                                                    "top":  332,
+                                                    "bottom":  400,
+                                                    "centerY":  368.0,
+                                                    "baselineY":  380,
+                                                    "cellBaselineY":  [
+                                                                          377,
+                                                                          380,
+                                                                          379,
+                                                                          380,
+                                                                          380
+                                                                      ],
+                                                    "background":  "#ffffff",
+                                                    "glyphBounds":  {
+                                                                        "top":  358,
+                                                                        "bottom":  379
+                                                                    },
+                                                    "cellMasks":  [
+                                                                      {
+                                                                          "left":  207,
+                                                                          "top":  355,
+                                                                          "right":  244,
+                                                                          "bottom":  379,
+                                                                          "row":  3,
+                                                                          "column":  0
+                                                                      },
+                                                                      {
+                                                                          "left":  409,
+                                                                          "top":  356,
+                                                                          "right":  443,
+                                                                          "bottom":  382,
+                                                                          "row":  3,
+                                                                          "column":  1
+                                                                      },
+                                                                      {
+                                                                          "left":  557,
+                                                                          "top":  356,
+                                                                          "right":  603,
+                                                                          "bottom":  381,
+                                                                          "row":  3,
+                                                                          "column":  2
+                                                                      },
+                                                                      {
+                                                                          "left":  707,
+                                                                          "top":  356,
+                                                                          "right":  753,
+                                                                          "bottom":  382,
+                                                                          "row":  3,
+                                                                          "column":  3
+                                                                      },
+                                                                      {
+                                                                          "left":  865,
+                                                                          "top":  356,
+                                                                          "right":  894,
+                                                                          "bottom":  382,
+                                                                          "row":  3,
+                                                                          "column":  4
+                                                                      }
+                                                                  ]
+                                                }
+                                            ],
+                               "font":  {
+                                            "family":  "Arial, sans-serif",
+                                            "size":  26,
+                                            "weight":  400,
+                                            "color":  "#000000",
+                                            "textAlign":  "center",
+                                            "textBaseline":  "alphabetic"
+                                        },
+                               "columnFonts":  {
+                                                   "0":  {
+                                                             "weight":  700,
+                                                             "size":  26
+                                                         }
+                                               },
+                               "referenceSampleValues":  [
+                                                             [
+                                                                 "",
+                                                                 "",
+                                                                 "",
+                                                                 "",
+                                                                 ""
+                                                             ],
+                                                             [
+                                                                 "",
+                                                                 "",
+                                                                 "",
+                                                                 "",
+                                                                 ""
+                                                             ],
+                                                             [
+                                                                 "",
+                                                                 "",
+                                                                 "",
+                                                                 "",
+                                                                 ""
+                                                             ],
+                                                             [
+                                                                 "",
+                                                                 "",
+                                                                 "",
+                                                                 "",
+                                                                 ""
+                                                             ]
+                                                         ],
+                               "sampleOnly":  true,
+                               "fixedRows":  4,
+                               "fixedColumns":  5
+                           }
+             },
+    "geometry":  "assets/turntide-template/geometry.json",
+    "publicAssets":  true,
+    "policy":  {
+                   "rasterOrigin":  "Fresh blank bitmap and original vector/text drawing; no user product image pixels.",
+                   "editableData":  "Blank. Supply your own verified product measurements before export.",
+                   "geometry":  "Existing layout dimensions, row/column coordinates and cell masks retained for compatibility."
+               }
+}
